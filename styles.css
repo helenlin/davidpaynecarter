@@ -15,105 +15,115 @@ body {
   width: 100%;
   height: 100%;
   position: relative;
-  background: white
-    "
+  background: white;
 }
 
-.page-background{
-    width: 1042px;
-    height: 2939px;
-    left: 235px;
-    top: 0px;
-    position: absolute;
-    background: #d9d9d9;
-    margin-top:0;
+.page-background {
+  width: 1042px;
+  height: 2700px;
+  left: 235px;
+  top: 0px;
+  position: absolute;
+  background: #d9d9d9;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
-header{
-    width: 874px;
-    height: 551px;
-    left: 319px;
-    top: 76px;
-    position: absolute;
+header {
+  width: 874px;
+  height: 551px;
+  left: 319px;
+  top: 76px;
+  position: absolute;
 }
 
-.page-title-section{
-    width: 874px;
-    height: 464px;
-    left: 0px;
-    top: 0px;
-    position: absolute;
+.page-title-section {
+  display: flex;
+  align-items: center;
+  width: 874px;
+  height: 550px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
 }
 
-.page-title-text{
-    width: 555px;
-    height: 420px;
-    left: 319px;
-    top: 0px;
-    position: absolute;
+.page-title-text {
+  width: 555px;
+  height: 550px;
+  left: 319px;
+  top: 0px;
+  position: absolute;
 }
 
-.page-title{
-    width: 555px;
-    height: 213px;
-    left: 0px;
-    top: 0px;
-    position: absolute;
-    color: black;
-    font-size: 96px;
-    font-weight: 400;
-    word-wrap: break-word;
+.page-title {
+  width: 555px;
+  height: 213px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  color: black;
+  font-size: 96px;
+  font-weight: 400;
+  word-wrap: break-word;
 }
 
-.page-title-description{
-    width: 555px;
-    left: 0px;
-    top: 252px;
-    position: absolute;
-    color: black;
-    font-size: 20px;
-    font-weight: 400;
-    word-wrap: break-word;
+.page-title-description {
+  width: 555px;
+  left: 5px;
+  top: 252px;
+  position: absolute;
+  color: black;
+  font-size: 20px;
+  font-weight: 250;
+  word-wrap: break-word;
 }
 
-.divider{
-    width: 874px;
-    height: 0px;
-    left: 0px;
-    top: 551px;
-    position: absolute;
-    outline: 1px black solid;
-    outline-offset: -0.5px;
+.divider {
+  width: 874px;
+  height: 0px;
+  position: relative;
+  border-top: 0.5px solid black;
 }
 
-
-.page-mid{
-    width: 875px;
-    height: 1021px;
-    left: 318px;
-    top: 703px;
-    position: absolute;
+#line-1 {
+  left: 0px;
+  top: 600px;
+  margin: top;
 }
 
-.video-testimonials-section{
-    width: 875px;
-    height: 945px;
-    left: 0px;
-    top: 0px;
-    position: absolute;
+#line-2 {
+  left: 1px;
+  top: 1021px;
 }
 
-.video-testimonials-title{
-    width: 679px;
-    height: 31px;
-    left: 98px;
-    top: 0px;
-    position: absolute;
-    text-align: center;
-    color: black;
-    font-size: 24px;
-    font-weight: 500;
-    word-wrap: break-word;
+.page-mid {
+  width: 875px;
+  height: 1021px;
+  left: 318px;
+  top: 730px;
+  position: absolute;
+}
+
+.video-testimonials-section {
+  width: 875px;
+  height: 945px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+}
+
+.video-testimonials-title {
+  width: 679px;
+  height: 31px;
+  left: 98px;
+  top: 0px;
+  position: absolute;
+  text-align: center;
+  color: black;
+  font-size: 24px;
+  font-weight: 500;
+  word-wrap: break-word;
 }
 
 .video-testimonials {
@@ -130,28 +140,83 @@ header{
   align-content: center;
 }
 
-img{
-    border-radius:20px;
+video {
+  border-radius: 20px;
+  background: #d9d9d9;
 }
 
-#img1, #img5, #img9, #img16{
-    width: 149px;
-    height: 146px;
+#vid1,
+#vid5,
+#vid9,
+#vid16 {
+  width: 149px;
+  height: 146px;
 }
 
-#img2, #img4, #img17{
-    width: 149px;
-    height: 145px;
-
+#vid2,
+#vid4,
+#vid17 {
+  width: 149px;
+  height: 145px;
 }
-#img3, #img6, #img7, #img8, #img11, #img12, #img13, #img14, #img15, #img18{
-    width: 148px;
-    height: 145px;
-
+#vid3,
+#vid6,
+#vid7,
+#vid8,
+#vid11,
+#vid12,
+#vid13,
+#vid14,
+#vid15,
+#vid18 {
+  width: 148px;
+  height: 145px;
 }
 
-#img10{
-    width: 148px;
-    height: 144px;
+#vid10 {
+  width: 148px;
+  height: 144px;
+}
 
+.testimonials-section {
+  width: 819px;
+  height: 850px;
+  left: 346px;
+  top: 1800px;
+  position: absolute;
+}
+
+.testimonial-title {
+  left: 337px;
+  top: 0px;
+  position: absolute;
+  text-align: center;
+  color: black;
+  font-size: 24px;
+  font-family: Inter;
+  font-weight: 500;
+  word-wrap: break-word;
+}
+
+.testimonial-text {
+  width: 819px;
+  height: 700px;
+  left: 0px;
+  top: 65px;
+  position: absolute;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 64px;
+  display: inline-flex;
+}
+
+.testimonial-text-item {
+  align-self: stretch;
+  text-align: center;
+  color: black;
+  font-size: 16px;
+  font-family: Inter;
+  font-weight: 250;
+  word-wrap: break-word;
 }
