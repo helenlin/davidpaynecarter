@@ -4,7 +4,8 @@ body {
   padding: 0;
   height: 100%;
   width: 100%;
-  font-family: Inter, sans-serif;
+  font-family: Inter, sans-serif !important;
+  line-height: 1.22 !important; /* Adjust for better readability */
 }
 
 #riosVideo {
@@ -21,21 +22,22 @@ body {
 .page-background {
   width: 1042px;
   height: 2700px;
-  left: 235px;
-  top: 0px;
   position: absolute;
+  top: 0px;
+  left: 0;
+  right: 0;
   background: #d9d9d9;
-  margin-top: 0;
-  margin-bottom: 0;
-  padding-bottom: 0;
+  margin: 0 auto;
 }
 
 header {
   width: 874px;
   height: 551px;
-  left: 319px;
-  top: 76px;
   position: absolute;
+  top: 76px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
 }
 
 .page-title-section {
@@ -51,9 +53,9 @@ header {
 .page-title-text {
   width: 555px;
   height: 550px;
-  left: 319px;
-  top: 0px;
   position: absolute;
+  top: 0px;
+  left: 319px;
 }
 
 .page-title {
@@ -74,6 +76,7 @@ header {
   top: 252px;
   position: absolute;
   color: black;
+  font-family: Inter;
   font-size: 20px;
   font-weight: 250;
   word-wrap: break-word;
@@ -83,34 +86,37 @@ header {
   width: 874px;
   height: 0px;
   position: relative;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
   border-top: 0.5px solid black;
 }
 
 #line-1 {
-  left: 0px;
   top: 600px;
   margin: top;
 }
 
 #line-2 {
-  left: 1px;
   top: 1021px;
 }
 
 .page-mid {
-  width: 875px;
+  width: 100%;
   height: 1021px;
-  left: 318px;
-  top: 730px;
   position: absolute;
+  top: 730px;
+  margin: 0 auto;
 }
 
 .video-testimonials-section {
   width: 875px;
   height: 945px;
-  left: 0px;
-  top: 0px;
   position: absolute;
+  top: 0px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
 }
 
 .video-testimonials-title {
@@ -129,9 +135,11 @@ header {
 .video-testimonials {
   width: 875px;
   height: 850px;
-  left: 0px;
-  top: 95px;
   position: absolute;
+  top: 95px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
   justify-content: center;
   align-items: center;
   gap: 35px;
@@ -181,9 +189,11 @@ video {
 .testimonials-section {
   width: 819px;
   height: 850px;
-  left: 346px;
-  top: 1800px;
   position: absolute;
+  top: 1800px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
 }
 
 .testimonial-title {
@@ -219,4 +229,18 @@ video {
   font-family: Inter;
   font-weight: 250;
   word-wrap: break-word;
+}
+
+.slideshow {
+  width: 600px;
+  height: 500px;
+  position: relative;
+  top: 1800px;
+  margin-left: auto;
+  margin-right: auto;
+  visibility: hidden;
+}
+
+.d-block.w-100 {
+  border-radius: 20px;
 }
